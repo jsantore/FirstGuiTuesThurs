@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bsu.comp152.firstguituesthurs.SecondWindow">
+   <children>
+      <BorderPane layoutX="47.0" layoutY="31.0" prefHeight="340.0" prefWidth="417.0">
+         <center>
+            <Label fx:id="helloLabel" text="Label" textFill="#c724cd" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Amiri" size="24.0" />
+               </font></Label>
+         </center>
+         <bottom>
+            <Button mnemonicParsing="false" onAction="#HelloClicked" text="Hello" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Book Antiqua Bold Italic" size="14.0" />
+               </font>
+            </Button>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>
